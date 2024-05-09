@@ -46,3 +46,7 @@ After starting the Docker container:
 Questions? Join the discussions and get tips on the [original forum thread](https://hobbybrauer.de/forum/viewtopic.php?p=519277).
 
 Happy brewing!
+
+## Bonus: Screenshot
+
+![Screenshot](./images/screenshot.png)

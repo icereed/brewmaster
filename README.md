@@ -19,7 +19,7 @@ Before diving in, ensure you have Docker installed on your computer. If you have
 3. **Activate Pairing Mode:** On your Klarstein Brauheld, hold the reset button for 5 seconds to enter pairing mode.
 4. **Add Device:** In the Tuya app, select "Add Device" -> "Others" -> "Others (Wi-Fi)".
 5. **Retrieve Credentials:**
-   - **Access ID and Key:** Follow the instructions in the [Tuya documentation](https://developer.tuya.com/en/docs/iot/Home-assistant-tuya-intergration?id=Kb0eqjig0utdd) to obtain your Tuya Access ID and Access Key.
+   - **Access ID and Key:** Follow the instructions (but ignore the HomeAssistant details) in the [Tuya documentation](https://developer.tuya.com/en/docs/iot/Home-assistant-tuya-intergration?id=Kb0eqjig0utdd) to obtain your Tuya Access ID and Access Key. We only want to get the credentials. Skip the part regarding HomeAssistant.
    - **Device ID:**  Get your Tuya Device ID either through the Tuya Cloud Portal or simply via the Tuya App.
      In the Tuya App, go to the device settings and click on "Device Information". The Device ID is displayed there.
 

@@ -10,6 +10,8 @@ Our app connects directly with the Klarstein Brauheld system via the Tuya IoT pl
 
 Before diving in, ensure you have Docker installed on your computer. If you haven’t installed it yet, you can download it from [Docker's official site](https://docs.docker.com/get-docker/).
 
+You’re correct; linking your Tuya app account to the cloud project is crucial to have any device in the app show up in the cloud project and be accessible for integration.
+
 ## Setup Guide
 
 ### Pairing the Klarstein Brauheld with Tuya
@@ -18,9 +20,14 @@ Before diving in, ensure you have Docker installed on your computer. If you have
 2. **Create a Tuya Account:** Sign up for a new account within the app.
 3. **Activate Pairing Mode:** On your Klarstein Brauheld, hold the reset button for 5 seconds to enter pairing mode.
 4. **Add Device:** In the Tuya app, select "Add Device" -> "Others" -> "Others (Wi-Fi)".
-5. **Retrieve Credentials:**
-   - **Access ID and Key:** Go to the [Tuya IoT Development Platform](https://iot.tuya.com/) and log in or create a developer account if needed. Create a "Smart Home" cloud project and enable APIs such as "IoT Core." Then, find your **Access ID** and **Access Key** in the project’s "Authorization Key" section under "Overview".
-   - **Device ID:** Retrieve your Tuya Device ID through the Tuya App by going to your device settings, selecting "Device Information," and noting the displayed Device ID.
+5. **Link App Account to Cloud Project:**
+   - Log in to the [Tuya IoT Development Platform](https://iot.tuya.com/) with the same account used in the Tuya app.
+   - **Create a Cloud Project**: Choose "Smart Home" as the project type.
+   - **Authorize APIs**: Enable APIs like "IoT Core" for device interaction.
+   - **Link the Tuya App Account**: Within the project settings, select "Link Tuya App Account," scan the displayed QR code with the Tuya app on your phone (found under “Me > Account and Security > Link with Tuya IoT Platform Account”), and confirm.
+6. **Retrieve Credentials:**
+   - **Access ID and Key**: After creating the project, you’ll find your **Access ID** and **Access Key** in the project’s "Authorization Key" section under "Overview."
+   - **Device ID**: Find your Device ID by going to the device settings in the Tuya app, selecting "Device Information," and noting the displayed Device ID.
 
 ## Running the Application
 

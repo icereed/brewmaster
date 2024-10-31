@@ -10,8 +10,6 @@ Our app connects directly with the Klarstein Brauheld system via the Tuya IoT pl
 
 Before diving in, ensure you have Docker installed on your computer. If you haven’t installed it yet, you can download it from [Docker's official site](https://docs.docker.com/get-docker/).
 
-You’re correct; linking your Tuya app account to the cloud project is crucial to have any device in the app show up in the cloud project and be accessible for integration.
-
 ## Setup Guide
 
 ### Pairing the Klarstein Brauheld with Tuya
